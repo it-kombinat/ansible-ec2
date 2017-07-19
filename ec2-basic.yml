@@ -73,6 +73,9 @@
 - name: OS Hardening and installaing webservice on EC2
   hosts: webserver
   become: true
+  vars:
+    os_ignore_users: ['ec2-user']
   roles:
     - ansible-os-hardening
     - ansible-ssh-hardening
+  tags: hardening
