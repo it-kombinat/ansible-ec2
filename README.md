@@ -4,7 +4,7 @@
 
 ## Installing roles
 ```
-ansible-galaxy install -r roles.yml
+ansible-galaxy install -r roles.yml --force
 ```
 ## Adding Variables
 ```
