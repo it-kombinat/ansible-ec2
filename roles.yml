@@ -1,3 +1,4 @@
-- src: https://github.com/it-kombinat/ansible-httpd-demo
-  name: ansible-httpd-demo
-- src: https://github.com/dev-sec/ansible-os-hardening
+- src: https://github.com/it-kombinat/ansible-httpd-demo.git
+  scm: git
+- src: https://github.com/dev-sec/ansible-os-hardening.git
+  scm: git
